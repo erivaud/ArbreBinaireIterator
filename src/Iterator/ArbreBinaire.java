@@ -15,7 +15,7 @@ public class ArbreBinaire implements Iterable<ArbreBinaire> {
 
 
 	@Override
-	public Iterator<ArbreBinaire> iterator() {
+	public ArbreIterator iterator() {
 		return new ArbreIterator(this);
 	}
 

@@ -11,11 +11,7 @@ public class IteratorApplication {
 //			 abG1		agD1
 //			/	\		/	\
 // 		abG2	abD2  abG3	abD3
-		
-// 	résultat attendu :
-		
-// 		abG2 - abG1 - abD2 - root - abG3 - agD1 - abD3
-		
+
 	ArbreBinaire abRoot = new ArbreBinaire("root");
 	ArbreBinaire abG1 = new ArbreBinaire("G1");
 	ArbreBinaire abD1 = new ArbreBinaire("D1");
