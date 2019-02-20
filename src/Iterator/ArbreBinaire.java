@@ -16,11 +16,8 @@ public class ArbreBinaire implements Iterable<ArbreBinaire> {
 
 	@Override
 	public Iterator<ArbreBinaire> iterator() {
-		// TODO Auto-generated method stub
-		return null;
+		return new ArbreIterator(this);
 	}
-
-
 
 	public String getEtiquette() {
 		return etiquette;

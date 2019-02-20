@@ -32,7 +32,11 @@ public class IteratorApplication {
 	abD1.setFilsDroit(abD3);
 	
 	
-	System.out.println(abRoot.getEtiquette());
+	ArbreIterator abIterator = new ArbreIterator(abRoot);
+	while(abIterator.hasNext()) {
+		System.out.println(abIterator.next().getEtiquette());
+	}
+	
 	}
 
 }
